@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { searchMovies } from "../API/omdbservice";
+import { searchMovies } from "../api/omdbservice";
 import SearchBar from "../components/SearchBar";
 import Pagination from "../components/Pagination";
 import MovieCard from "../components/MovieCard";

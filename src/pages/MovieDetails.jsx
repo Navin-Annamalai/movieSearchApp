@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom"
 import { useState, useEffect } from "react"
-import { getMovieDetails } from "../API/omdbservice";
+import { getMovieDetails } from "../api/omdbservice";
 
 function MovieDetails() {
     const { imdbID } = useParams();
